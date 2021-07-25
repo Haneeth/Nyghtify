@@ -1,0 +1,42 @@
+.dd{
+    display:flex;
+    
+}
+
+.dd .ml {
+    flex: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.dd .ml .dow {
+    display: flex;
+}
+
+.dd .ml .dow .st{
+    flex:50%;
+}
+
+.dd .mr{
+    flex:50%;
+    text-align: center;
+}
+
+.mockup{
+ width: 35%;
+}
+
+@media only screen and (max-width: 600px){
+    
+    .dd{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .mockup{
+        padding-top: 30px;
+        width: 35%;
+    }
+}
