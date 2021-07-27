@@ -18,7 +18,7 @@
 }
 .iinfo .ileftside .iinputs{
 
-    padding: 0px 30px;
+    padding: 0px 45px;
 }
 
 .iinfo .ileftside .iinputs .ih1
@@ -47,6 +47,10 @@
 
 
 @media only screen and (max-width: 600px) {
+
+    .iinfo{
+       height: 500px;
+    }
     .iinfo .irightside{
         display: none;
     }
@@ -54,7 +58,8 @@
         font-size: 4.6vw;
     }
     .iinfo .ileftside .iinputs .ip1{
-        font-size:2.6vw;
+        font-size:3vw;
     }
+    
 }
 

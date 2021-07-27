@@ -1,7 +1,8 @@
 import React, { Component, useState } from 'react'
 import img1 from '../images/logo1.png'
 import '../Navbar1.css'
-import {} from 'react-router-dom'
+import {Link} from 'react-router-dom'
+
 
 
 
@@ -31,12 +32,18 @@ function Navbar() {
             </div>
             <div className="rightSide">
                 <div className="links" id={showLinks ? "hidden" : ""}>
-
-                    <a href="/home">Sign in</a>
+              
+                    {/* <a href="/home">Sign in</a>
                     <a href="/explorenights">Gallery</a>
                    
                     <a href="/aboutus">About us</a>
-                    <a href="/contactus">Contact us</a>
+                    <a href="/contactus">Contact us</a>  */}
+                     <Link to="/"> <a >Home</a></Link>
+                   <Link> <a >Sign in</a></Link>
+                   <Link to="/gallery"> <a >Gallery</a></Link>
+                   <Link to="/about"> <a >About Us</a></Link>
+                   <Link to="/contact"> <a >Contact</a></Link>
+                  
                 </div>
                 <button onClick={() => setShowLinks(!showLinks)}><i className="material-icons">menu</i></button>
             </div>

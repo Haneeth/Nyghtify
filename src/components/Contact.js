@@ -1,10 +1,11 @@
 import React from 'react'
 import img3 from '../images/logo1.png'
 import '../Contact1.css'
+import Footer from './Footer'
 
 function Contact() {
     return (
-
+        <div className="App">
         <div className="contact">
             <div className="cl">
                 <div className="clc">
@@ -47,6 +48,9 @@ function Contact() {
                 </div>
 
             </div>
+            
+        </div>
+        <Footer />
         </div>
 
 

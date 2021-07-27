@@ -1,10 +1,17 @@
 import React from 'react'
 
 import '../Gallery1.css'
+import Footer from './Footer'
+import Navbar from './Navbar'
+
 
 function Gallery() {
     return (
         <div className="gallery">
+            
+            <br />
+            <br />
+            <br />
             <h1 className="gal">Gallery</h1>
             <div class="row">
                 <div class="column">
@@ -29,6 +36,8 @@ function Gallery() {
                 </div>
                 
             </div>
+            
+            <Footer />
         </div>
 
     )

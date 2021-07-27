@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import '../Sliderr.css'
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 
 export default class Sliderr extends Component {
   render() {
@@ -31,7 +33,7 @@ export default class Sliderr extends Component {
           },
     
         {
-          breakpoint: 600,
+          breakpoint: 627,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 2,
@@ -41,7 +43,7 @@ export default class Sliderr extends Component {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1.5,
+            slidesToShow: 2,
             slidesToScroll: 1
           }
         }
@@ -92,3 +94,4 @@ export default class Sliderr extends Component {
     );
   }
 }
+

@@ -1,6 +1,14 @@
 .dd{
     display:flex;
-    
+    padding-top: 30px;
+}
+
+.gt {
+    font-size: 3vw;
+
+}
+.bt {
+    font-size: 2vw;
 }
 
 .dd .ml {
@@ -28,6 +36,14 @@
  width: 35%;
 }
 
+.ml {
+    padding-left:45px;
+}
+
+.dsds {
+    height: 100%;
+}
+
 @media only screen and (max-width: 600px){
     
     .dd{
@@ -38,5 +54,16 @@
     .mockup{
         padding-top: 30px;
         width: 35%;
+    }
+    .dsds {
+        height: 50%;
+        width: 40%;
+    }
+    .gt {
+        font-size: 5.5vw;
+    
+    }
+    .bt {
+        font-size: 3.9vw;
     }
 }

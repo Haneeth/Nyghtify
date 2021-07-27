@@ -1,6 +1,7 @@
 import React from 'react'
 import img3 from '../images/logo1.png'
 import '../About1.css'
+import Footer from './Footer'
 
 function About() {
     return (
@@ -75,6 +76,7 @@ function About() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
 
     )
