@@ -7,7 +7,7 @@ import Work from "./Work";
 import Store from "./Store";
 import Footer from "./Footer";
 import About from "./About";
-import Nonsence from "./Nonsence";
+
 
 function Home() {
     return (
@@ -19,7 +19,7 @@ function Home() {
         <Work />
         <Store />
         <Footer />
-        <Nonsence />
+        
         
       </div>
     );
