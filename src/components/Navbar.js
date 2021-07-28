@@ -55,6 +55,3 @@ function Navbar() {
 export default Navbar
 
 
-// <div className="logo">
-// <img src={img1} alt="" />
-// </div>

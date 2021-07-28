@@ -9,9 +9,7 @@ function Gallery() {
     return (
         <div className="gallery">
             
-            <br />
-            <br />
-            <br />
+            
             <h1 className="gal">Gallery</h1>
             <div class="row">
                 <div class="column">

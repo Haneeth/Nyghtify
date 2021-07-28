@@ -3,6 +3,9 @@ body{
 	line-height: 1.5;
 	font-family: 'Poppins', sans-serif;
 }
+.fmain{
+	padding-top: 50px;
+}
 *{
 	margin:0;
 	padding:0;

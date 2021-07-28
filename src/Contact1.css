@@ -1,4 +1,7 @@
-
+.cmain{
+    display: flex;
+     flex-direction: column;
+}
 
 .contact{
     display: flex;
