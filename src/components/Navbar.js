@@ -39,7 +39,7 @@ function Navbar() {
                     <a href="/aboutus">About us</a>
                     <a href="/contactus">Contact us</a>  */}
                      <Link to="/"> <a >Home</a></Link>
-                   <Link> <a >Sign in</a></Link>
+                   <Link to="/signin"><a >Sign in</a></Link>
                    <Link to="/gallery"> <a >Gallery</a></Link>
                    <Link to="/about"> <a >About Us</a></Link>
                    <Link to="/contact"> <a >Contact</a></Link>
@@ -55,3 +55,6 @@ function Navbar() {
 export default Navbar
 
 
+// <div className="logo">
+// <img src={img1} alt="" />
+// </div>

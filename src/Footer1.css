@@ -41,7 +41,8 @@ ul{
 .footer-col h4::before{
 	content: '';
 	position: absolute;
-	left:0;
+	
+	left: 85px;
 	bottom: -10px;
 	background-color: #e91e63;
 	height: 2px;

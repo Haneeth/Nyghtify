@@ -13,6 +13,7 @@ import Work from './components/Work';
 import Sliderr from './components/Sliderr';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import Signin from './components/Signin';
 
 
 
@@ -25,6 +26,7 @@ function App() {
       <Navbar />
       <Switch>
       <Route path="/" exact component={Home} />
+      <Route path="/signin" exact component={Signin} />
       <Route path="/gallery" component={Gallery} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
