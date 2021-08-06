@@ -20,7 +20,7 @@ function Signin() {
 
             <Register />
 
-            <Registration1 />
+           
 
 
         </div>

@@ -13,6 +13,7 @@
 .inputBx{
     display: flex;
     flex-direction: row;
+    padding: 10px 0px;
 
 }
 .inputBx .Register-class-h2{
@@ -63,3 +64,10 @@
     cursor: pointer;
     
   }
+
+  #number {
+      height: 25px;
+      width: 60px;
+  }
+
+  

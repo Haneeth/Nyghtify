@@ -2,6 +2,7 @@ import React from 'react'
 import '../Hero1.css'
 import img4 from '../images/logo1.png'
 // import Example from './Example'
+import {Link} from 'react-router-dom'
 
 
 
@@ -21,7 +22,8 @@ function Hero() {
              </div>
              <div className="hwork">
                <ul className="hul">
-                 <li className="hli1" ><a className="ha1" href="#">Work with us</a></li>
+                
+                 <Link to="/register"> <li className="hli1" ><a className="ha1" href="#">Work with us</a></li></Link>
                  <li className="hli2" ><a className="ha2" href="#">Work with us</a></li>
                </ul>
              </div>

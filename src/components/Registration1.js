@@ -1,27 +1,67 @@
-import React, { Component } from 'react'
-import  '../Registration1.css'
+import React from 'react'
+import '../Register.css'
+import Footer from './Footer'
+import { Link } from 'react-router-dom'
 
-export default class Registration1 extends Component {
-    render() {
-        return (
-            <div className="register1main">
-                <br/>
-                <br/>
-                <br/>
-                <h1 className="r9h1">Registration Form (page 2)</h1>
-                <h1 className="r1h1">Upload AAdhar Crad</h1>
-                <div className="input1">
-                <input  className="inputr2"  type="file" name="img" />
+function Registration1() {
+    return (
+        <div className="register1main">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+                <div className="Register-2">
+                <div class="inputBx">
+                    <div class="Register-class-h2">
+                        <h2 class="Register-h2">Blank</h2>
+                    </div>
+                    <div class="Register-class-input">
+                        <input class="Register-input" type="file" name="" />
+                    </div>
                 </div>
-                <h1 className="r1h1">Upload Pro Pic</h1>
-                <div className="input1">
-                
-                <input  className="inputr2"  type="file" name="img" />
+                <div class="inputBx">
+                    <div class="Register-class-h2">
+                        <h2 class="Register-h2">Upload ID Card</h2>
+                    </div>
+                    <div class="Register-class-input">
+                        <input class="Register-input" type="file" name="" />
+                    </div>
                 </div>
-
-                
-
+                <div class="inputBx">
+                    <div class="Register-class-h2">
+                        <h2 class="Register-h2"> Profile Pic</h2>
+                    </div>
+                    <div class="Register-class-input">
+                        <input class="Register-input" type="file" name="" />
+                    </div>
+                </div>
             </div>
-        )
-    }
+
+
+            <div class="inputBx">
+                <div class="Register-class-submit">
+                    <div class="Register-class-submit-flex">
+                        <Link to="/register"><input class="Register-Submit" type="submit" value="Back" name="" /></Link>
+
+                    </div>
+                    <div class="Register-class-submit-flex">
+                        <input class="Register-Submit" type="submit" value="Next" name="" /></div>
+                        
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+
+            <br/>]
+            <br/>
+            <br/>
+            
+            
+            <Footer />
+            </div>
+    )
 }
+
+export default Registration1

@@ -14,6 +14,8 @@ import Sliderr from './components/Sliderr';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Signin from './components/Signin';
+import Register from './components/Register';
+import Registration1 from './components/Registration1';
 
 
 
@@ -30,7 +32,9 @@ function App() {
       <Route path="/gallery" component={Gallery} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
-      </Switch>
+      <Route path="/register" component={Register} />
+      <Route path="/register2" component={Registration1} />
+        </Switch>
       
    </Router>
 
